@@ -1,0 +1,94 @@
+{
+  "title": "Support",
+  "description": "Help with recording, transcription and Live in LLM Dict. Find answers and contact support.",
+  "support_label": "Support",
+  "privacy_label": "Privacy",
+  "skip": "Skip to content",
+  "nav_label": "Main navigation",
+  "language_label": "Website language",
+  "footer": "App support",
+  "eyebrow": "LLM Dict for iOS",
+  "intro": "A question about recording, transcription or Live? Find an answer below or get in touch.",
+  "contact_title": "Get in touch",
+  "contact_intro": "Tell us what happened and what you expected to happen.",
+  "email_subject": "LLM Dict Support",
+  "email_body": "Hello!\r\n\r\nMy question:\r\n\r\nApp version:\r\niOS version:\r\n",
+  "email_button": "Email support",
+  "copy_label": "Copy email address",
+  "copied": "Email address copied",
+  "copy_fallback": "Select the address above and copy it manually.",
+  "contact_note": "Include your app and iOS versions. Please do not send API keys or passwords.",
+  "faq_label": "Quick answers",
+  "faq_title": "Frequently asked questions",
+  "privacy_note": "Wondering where your audio and text go?",
+  "privacy_link": "How we handle data",
+  "faq": [
+    [
+      "How do I get started?",
+      "<ol><li>Allow microphone access and make a regular recording.</li><li>For transcription, open Settings → Services and Keys, add your own key for the service you want to use, and check the connection.</li><li>Select a transcription or text-processing model. Then open a recording in the library.</li></ol>"
+    ],
+    [
+      "Do AI services have separate charges?",
+      "<p>Cloud processing uses your own accounts and API keys for OpenAI, SaluteSpeech or GigaChat. Access, usage limits and charges are set by the selected provider. A consumer chat subscription and API access may be billed separately.</p>"
+    ],
+    [
+      "Why is transcription or Live not working?",
+      "<p>Check your connection, microphone permission, API key, access to the selected model and provider usage limits. For OpenAI, also check the API address and service availability in your region.</p><p>If the problem persists, send the error message, service name and steps to reproduce it. Please do not include your key.</p>"
+    ],
+    [
+      "How do I change the app, speech or translation language?",
+      "<p>Choose Russian, English or System in Settings → App Language. Speech and translation languages are configured separately in Live settings. Changing the interface language does not translate saved recordings or your instructions.</p>"
+    ],
+    [
+      "How do I delete a recording and the last Live text?",
+      "<p>Swipe left on a library recording, choose Delete and confirm. In the current version, the last source Live transcript is also stored separately: after stopping Live, open its instruction menu and choose Clear Screen.</p><p>This option is available in the Live mode with instruction selection. If another model is selected, stop Live and switch to an instruction-capable model in the gpt-realtime family. Clearing the screen alone does not delete the library recording.</p>"
+    ],
+    [
+      "Can I record offline?",
+      "<p>Regular recording, playback and local audio enhancement run on your device. Cloud transcription, text processing and Live require a connection to the selected AI service.</p>"
+    ]
+  ],
+  "privacy_title": "Privacy policy",
+  "privacy_description": "What data LLM Dict processes, when it is sent to AI services, and how to manage retention and deletion.",
+  "privacy_intro": "This policy explains data handling in the LLM Dict iOS app and on this support website.",
+  "owner_label": "Developer and data contact",
+  "updated_label": "Updated September 22, 2026",
+  "contents_label": "On this page",
+  "privacy_sections": [
+    [
+      "local",
+      "Data on your device",
+      "<p>LLM Dict stores recordings and imported audio, enhanced audio, transcripts, processing results, titles, dates, duration, flags and error messages. Your prompts, instructions and settings are also stored on your device.</p><p>The last source Live transcript may also be saved separately so it can be reopened. API keys are stored in the system Keychain. Regular recording and local audio enhancement do not require sending content to the developer.</p><p>The developer does not provide a server for storing your recordings. App data may be included in device backups managed by Apple, depending on your system settings.</p>"
+    ],
+    [
+      "ai",
+      "When data is sent to AI services",
+      "<p>The destination depends on the feature, service and API address you select:</p><dl class=\"data-list\"><div><dt>Recording transcription</dt><dd>Audio is sent to your selected OpenAI or SaluteSpeech service to convert speech into text.</dd></div><div><dt>Live</dt><dd>While Live is running, the audio stream and session settings are sent to OpenAI or your configured compatible endpoint. In instruction-capable modes, the selected instruction is also sent.</dd></div><div><dt>Text processing</dt><dd>The source text and prompt are sent to your selected OpenAI or GigaChat service to carry out your instruction.</dd></div><div><dt>Connection and model lists</dt><dd>Your key or a token obtained with it authenticates requests to the relevant service. The provider also receives network information needed for the connection, including your IP address.</dd></div></dl><p>If you change the OpenAI API address, the operator of that address receives requests, content and authentication data. Its data practices may differ from those of OpenAI. Use an address you trust.</p>"
+    ],
+    [
+      "providers",
+      "Provider retention",
+      "<p>Cloud services process data under the terms of your accounts and selected APIs. Retention periods and processing locations may differ; processing may take place outside your country.</p><p>The current app does not disable response storage when processing text through the OpenAI Responses API. OpenAI documents default retention of this response data for at least 30 days, subject to exceptions and account settings. Separate security logs have their own retention rules.</p><p>For retention and deletion at your provider, consult its settings and documents: <a href=\"https://developers.openai.com/api/docs/guides/your-data\">OpenAI API data controls</a>, <a href=\"https://developers.sber.ru/docs/ru/policies/overview\">Sber service legal documents</a>, and the <a href=\"https://sberdevices.ru/legal/privacy_policy/\">SDevices privacy policy</a>. The app does not control provider-side storage or guarantee immediate deletion of data already sent.</p>"
+    ],
+    [
+      "control",
+      "Your choices and deletion",
+      "<ul><li>You can use regular local recording without starting cloud features. Stop Live to stop sending new live audio.</li><li>You can revoke microphone permission in iOS settings.</li><li>Delete library recordings with confirmation. To remove the separate copy of the last Live transcript, also use Clear Screen in the Live instruction menu after recording has stopped. In the current version, this action is available in the mode with instruction selection.</li><li>You can remove a service key in Settings → Services and Keys. This does not cancel your provider subscription or delete provider-held data.</li><li>Deleting a local recording does not delete previously exported files, sent emails, backups or data held by an AI provider. Manage those copies in the relevant service.</li></ul><p>Local data remains on your device until you or the system remove it. For deletion questions, contact <a href=\"mailto:llmdict.support@gmail.com\">llmdict.support@gmail.com</a>. The developer has no remote access to the recording library on your device.</p>"
+    ],
+    [
+      "support",
+      "Support requests",
+      "<p>When you send an email, support receives your email address, message and any files you choose to attach. The in-app email action adds the app and iOS versions to a draft; you decide whether to send it.</p><p>We use correspondence to respond to, diagnose and resolve your request, and keep it while needed for those purposes. You can request its deletion at the same address. Please do not send API keys, passwords or other people’s personal information unnecessarily.</p><p>The support mailbox is hosted by Gmail. The email provider’s handling is described in the <a href=\"https://policies.google.com/privacy\">Google privacy policy</a>.</p>"
+    ],
+    [
+      "website",
+      "Website, analytics and sharing",
+      "<p>The app has no advertising or third-party analytics SDKs. This website has no advertising analytics or upload forms, and does not store preferences in cookies or localStorage. Language selection opens the corresponding page.</p><p>The website is hosted on GitHub Pages. GitHub logs visitor IP addresses for security: <a href=\"https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages#data-collection\">GitHub Pages data collection information</a>.</p><p>When you share or copy content, the apps and recipients you choose handle the data you send under their own policies.</p>"
+    ],
+    [
+      "changes",
+      "Updates and contact",
+      "<p>This page is updated when features or data practices change. The current revision date appears at the top. For privacy questions and support, contact <a href=\"mailto:llmdict.support@gmail.com\">llmdict.support@gmail.com</a>.</p>"
+    ]
+  ]
+}
