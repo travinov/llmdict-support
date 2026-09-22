@@ -7,7 +7,7 @@
   "nav_label": "Main navigation",
   "language_label": "Website language",
   "footer": "App support",
-  "eyebrow": "LLM Dict for iOS",
+  "eyebrow": "LLM Dict for iPhone",
   "intro": "A question about recording, transcription or Live? Find an answer below or get in touch.",
   "contact_title": "Get in touch",
   "contact_intro": "Tell us what happened and what you expected to happen.",
@@ -25,11 +25,11 @@
   "faq": [
     [
       "How do I get started?",
-      "<ol><li>Allow microphone access and make a regular recording.</li><li>For transcription, open Settings → Services and Keys, read the data-sharing disclosure, check the consent box, add your own key for the service you want to use, and check the connection.</li><li>Select a transcription or text-processing model. Then open a recording in the library.</li></ol>"
+      "<ol><li>Allow microphone access and make a regular recording.</li><li>For transcription, open Settings → Services and Keys, read the data-sharing disclosure, check the consent box, add your own OpenAI API key, and check the connection.</li><li>Select a transcription or text-processing model. Then open a recording in the library.</li></ol>"
     ],
     [
       "Do AI services have separate charges?",
-      "<p>Cloud processing uses your own accounts and API keys for OpenAI, SaluteSpeech or GigaChat. Access, usage limits and charges are set by the selected provider. A consumer chat subscription and API access may be billed separately.</p>"
+      "<p>Cloud processing uses your own accounts and API keys for OpenAI. Access, usage limits and charges are set by the selected provider. A consumer chat subscription and API access may be billed separately.</p>"
     ],
     [
       "Why is transcription or Live not working?",
@@ -50,7 +50,7 @@
   ],
   "privacy_title": "Privacy policy",
   "privacy_description": "What data LLM Dict processes, when it is sent to AI services, and how to manage retention and deletion.",
-  "privacy_intro": "This policy explains data handling in the LLM Dict iOS app and on this support website.",
+  "privacy_intro": "This policy explains data handling in the first App Store release of LLM Dict for iPhone, which supports OpenAI, and on this support website.",
   "owner_label": "Developer and data contact",
   "updated_label": "Updated September 22, 2026",
   "contents_label": "On this page",
@@ -63,12 +63,12 @@
     [
       "ai",
       "When data is sent to AI services",
-      "<p>In version 1.0, before entering a key or sending data, you must explicitly check the consent box in Settings → Services and Keys for each service separately. Consent is off by default, including after an update from an earlier version. The disclosure identifies the data, recipient, and this privacy policy. The app stores the consent version, date, and recipient address on your device. Changing the OpenAI API address resets consent.</p><p>The destination depends on the feature, service and API address you select:</p><dl class=\"data-list\"><div><dt>Recording transcription</dt><dd>Audio is sent to your selected OpenAI or SaluteSpeech service to convert speech into text.</dd></div><div><dt>Live</dt><dd>While Live is running, the audio stream and session settings are sent to OpenAI or your configured compatible endpoint. In instruction-capable modes, the selected instruction is also sent.</dd></div><div><dt>Text processing</dt><dd>The source text and prompt are sent to your selected OpenAI or GigaChat service to carry out your instruction.</dd></div><div><dt>Connection and model lists</dt><dd>Your key or a token obtained with it authenticates requests to the relevant service. The provider also receives network information needed for the connection, including your IP address.</dd></div></dl><p>If you change the OpenAI API address, the operator of that address receives requests, content and authentication data. Its data practices may differ from those of OpenAI. Use an address you trust.</p>"
+      "<p>In version 1.0, before entering a key or sending data, you must explicitly check the consent box in Settings → Services and Keys for OpenAI. Consent is off by default; existing keys alone do not grant consent. The disclosure identifies the data, recipient, and this privacy policy. The app stores the consent version, date, and recipient address on your device. Changing the OpenAI API address resets consent.</p><p>The destination depends on the feature, service and API address you select:</p><dl class=\"data-list\"><div><dt>Recording transcription</dt><dd>Audio is sent to OpenAI or your configured compatible endpoint to convert speech into text.</dd></div><div><dt>Live</dt><dd>While Live is running, the audio stream and session settings are sent to OpenAI or your configured compatible endpoint. In instruction-capable modes, the selected instruction is also sent.</dd></div><div><dt>Text processing</dt><dd>The source text and prompt are sent to OpenAI or your configured compatible endpoint to carry out your instruction.</dd></div><div><dt>Connection and model lists</dt><dd>Your key or a token obtained with it authenticates requests to the relevant service. The provider also receives network information needed for the connection, including your IP address.</dd></div></dl><p>If you change the OpenAI API address, the operator of that address receives requests, content and authentication data. Its data practices may differ from those of OpenAI. Use an address you trust.</p>"
     ],
     [
       "providers",
       "Provider retention",
-      "<p>Cloud services process data under the terms of your accounts and selected APIs. Retention periods and processing locations may differ; processing may take place outside your country.</p><p>The current app does not disable response storage when processing text through the OpenAI Responses API. OpenAI documents default retention of this response data for at least 30 days, subject to exceptions and account settings. Separate security logs have their own retention rules.</p><p>For retention and deletion at your provider, consult its settings and documents: <a href=\"https://developers.openai.com/api/docs/guides/your-data\">OpenAI API data controls</a>, <a href=\"https://developers.sber.ru/docs/ru/policies/overview\">Sber service legal documents</a>, and the <a href=\"https://sberdevices.ru/legal/privacy_policy/\">SDevices privacy policy</a>. The app does not control provider-side storage or guarantee immediate deletion of data already sent.</p>"
+      "<p>Cloud services process data under the terms of your accounts and selected APIs. Retention periods and processing locations may differ; processing may take place outside your country.</p><p>The current app does not disable response storage when processing text through the OpenAI Responses API. OpenAI documents default retention of this response data for at least 30 days, subject to exceptions and account settings. Separate security logs have their own retention rules.</p><p>For retention and deletion at your provider, consult its settings and documents: <a href=\"https://developers.openai.com/api/docs/guides/your-data\">OpenAI API data controls</a>. The app does not control provider-side storage or guarantee immediate deletion of data already sent.</p>"
     ],
     [
       "control",
