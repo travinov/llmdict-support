@@ -30,6 +30,6 @@ Commit both content and generated HTML. GitHub Pages publishes **main → /docs*
 
 The website uses no third-party scripts, external fonts, analytics, cookies or localStorage. GitHub Pages may log IP addresses for security, as disclosed in the policy. Email is handled by the user's email client and Gmail. There is no web form, upload endpoint or app backend in this repository.
 
-The privacy text describes the app behavior inspected on September 22, 2026, including provider-managed retention, the current OpenAI Responses storage behavior and separate clearing of the last Live transcript. Update these sections when the corresponding app behavior changes. Publishing this site does not fix the outstanding in-app consent or Live deletion issues and does not constitute App Store approval.
+The privacy text describes version 1.0, including explicit per-service consent and withdrawal, provider-managed retention, OpenAI Responses storage behavior, and deletion of the Live cache together with its recording. Publishing this site does not constitute App Store approval.
 
 The app icon is reused as the website's brand mark. This repository contains website files only; no application source, recordings, API keys or signing assets are included.
