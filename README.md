@@ -32,4 +32,8 @@ The website uses no third-party scripts, external fonts, analytics, cookies or l
 
 The privacy text describes version 1.0, including explicit per-service consent and withdrawal, provider-managed retention, OpenAI Responses storage behavior, and deletion of the Live cache together with its recording. Publishing this site does not constitute App Store approval.
 
-The app icon is reused as the website's brand mark. This repository contains website files only; no application source, recordings, API keys or signing assets are included.
+The app icon is reused as the website's brand mark. This repository contains website files and a demonstration recording for TestFlight review. No application source, API keys or signing assets are included.
+
+## TestFlight demonstration
+
+The supplied screen recording is available from `docs/review/1.0-17-45eb614f/`. Its landing page is not linked from the support navigation and requests no indexing; this is not access control, and the public repository and video remain accessible. The original local recording is preserved; the hosted H.264 copy keeps the complete timeline.
